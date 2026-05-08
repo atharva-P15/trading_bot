@@ -1,0 +1,6 @@
+2025-10-14 10:45:11 | INFO     | __main__ | CLI invoked | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3200.5
+2025-10-14 10:45:11 | DEBUG    | bot.client | UMFutures client initialised → https://testnet.binancefuture.com
+2025-10-14 10:45:11 | INFO     | bot.orders | Placing SELL LIMIT order | symbol=ETHUSDT | qty=0.01 | price=3200.5
+2025-10-14 10:45:11 | DEBUG    | bot.orders | Full order params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 3200.5, 'timeInForce': 'GTC'}
+2025-10-14 10:45:12 | INFO     | bot.orders | Order placed successfully | orderId=8834921047 | status=NEW
+2025-10-14 10:45:12 | DEBUG    | bot.orders | Full API response: {'orderId': 8834921047, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'testnet_lmt_002', 'price': '3200.50', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'side': 'SELL', 'updateTime': 1697279112000}

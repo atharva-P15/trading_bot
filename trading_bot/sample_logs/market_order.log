@@ -1,0 +1,6 @@
+2025-10-14 09:12:01 | INFO     | __main__ | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2025-10-14 09:12:01 | DEBUG    | bot.client | UMFutures client initialised → https://testnet.binancefuture.com
+2025-10-14 09:12:01 | INFO     | bot.orders | Placing BUY MARKET order | symbol=BTCUSDT | qty=0.001
+2025-10-14 09:12:01 | DEBUG    | bot.orders | Full order params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-10-14 09:12:02 | INFO     | bot.orders | Order placed successfully | orderId=4149431553 | status=FILLED
+2025-10-14 09:12:02 | DEBUG    | bot.orders | Full API response: {'orderId': 4149431553, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'testnet_mkt_001', 'price': '0', 'avgPrice': '62345.10', 'origQty': '0.001', 'executedQty': '0.001', 'cumQuote': '62.345', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'side': 'BUY', 'updateTime': 1697274722000}
